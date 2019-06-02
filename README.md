@@ -8,4 +8,6 @@ Libaries used:
   Appache httpclient and httpcore (making API requests)
   Junit (unit testing)
 
-![alt text](console.png)
+Console syntax
+
+![console summary](console.png)
