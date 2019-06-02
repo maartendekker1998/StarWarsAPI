@@ -8,4 +8,4 @@ Libaries used:
   Appache httpclient and httpcore (making API requests)
   Junit (unit testing)
 
-![alt text](https://raw.maartendekker1998/StarWarsAPI/master/console.png)
+![alt text](https://raw.maartendekker1998/StarWarsAPI/blob/master/console.png)
