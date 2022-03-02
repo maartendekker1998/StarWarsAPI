@@ -17,9 +17,9 @@ public class API {
     public JsonObject getBuilder(String path, String searchquery) throws Exception {
         HttpGet httpGet;
         if (searchquery == null) {
-            httpGet = new HttpGet("https://swapi.co/api/" + path + "/");
+            httpGet = new HttpGet("https://swapi.dev/api/" + path + "/");
         } else {
-            httpGet = new HttpGet("https://swapi.co/api/" + path + "/?search=" + searchquery);
+            httpGet = new HttpGet("https://swapi.dev/api/" + path + "/?search=" + searchquery);
         }
         return getRequest(httpGet);
     }

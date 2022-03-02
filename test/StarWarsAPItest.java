@@ -16,7 +16,7 @@ public class StarWarsAPItest {
 
         JsonObject jsonObject = repository.getAll("films", null);
         String actual = jsonObject.get("count").toString();
-        String expected = "7";
+        String expected = "6";
 
         //if this test fails they have probably update the API because the new movie is out.
         assertEquals(expected,actual);
@@ -73,7 +73,7 @@ public class StarWarsAPItest {
     //this test proves that the first guy in the database under people is Luke Skywalker.
     public void GetSingleEntity(){
 
-        JsonObject person = repository.innerRequest("https://swapi.co/api/people/1/");
+        JsonObject person = repository.innerRequest("https://swapi.dev/api/people/1/");
 
         String expected = "Luke Skywalker";
         String actual = person.get("name").toString().replace("\"", "");
