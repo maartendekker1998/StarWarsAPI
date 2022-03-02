@@ -23,6 +23,7 @@ public class Main {
             System.out.println("films : title");
             System.out.println("planets : name");
             System.out.println("starships : name, model");
+            
             return;
         }
         //get all in category
